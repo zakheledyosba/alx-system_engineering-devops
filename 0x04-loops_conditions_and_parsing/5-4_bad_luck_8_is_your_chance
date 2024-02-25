@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# This script loops from 1 to 10 times using while loop.
+# diplays "bad luck" on the 4th iteration.
+# diplays "good luck" on the 8th iteration
+# diplays "Best School" for the other iteration 
+
+count=0
+
+while [ $count -lt 10 ]
+do
+  if [ $count -eq 3 ]
+  then
+    echo "bad luck"
+  elif [ $count -eq 7 ]
+  then
+    echo "good luck"
+  else
+  then  
+    echo "Best School"
+  fi 
+  (( count++ ))
+done
