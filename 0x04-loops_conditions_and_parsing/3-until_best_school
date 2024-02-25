@@ -2,7 +2,8 @@
 # This script diplays "Best School" 10 times using until loop.
 
 i="0"
+until [ $i -eq 10 ]
 do
-echo "Best School"
-i=$((i+1))
+   echo "Best School"
+   (((i+1))
 done
