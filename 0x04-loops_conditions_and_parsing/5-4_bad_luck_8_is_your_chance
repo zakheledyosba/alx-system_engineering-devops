@@ -14,8 +14,7 @@ do
   elif [ $count -eq 7 ]
   then
     echo "good luck"
-  else
-  then  
+  else  
     echo "Best School"
   fi 
   (( count++ ))
